@@ -1856,7 +1856,7 @@ input, select, textarea {
 
 					#titleBar .toggle:after {
 						content: '';
-						display: block;
+						display: none;
 						position: absolute;
 						top: 6px;
 						left: 6px;
@@ -1866,6 +1866,7 @@ input, select, textarea {
 						text-shadow: -1px -1px 1px black;
 						width: 49px;
 						height: 31px;
+		
 						border-radius: 8px;
 					}
 
@@ -1876,6 +1877,7 @@ input, select, textarea {
 						height: 30px;
 						background: url("images/mobileUI-site-nav-opener-bg.svg");
 						top: 15px;
+						display: none;
 						left: 20px;
 						z-index: 1;
 						opacity: 0.25;
